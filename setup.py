@@ -30,7 +30,7 @@ with open(os.path.join('scrubadub', '__init__.py')) as stream:
             version = line.split()[-1].replace('"', '').replace("'", '')
 
 setup(
-    name='scrubadub',
+    name='cs_scrubadub',
     version=version,
     description=(
         "Clean personally identifiable information from dirty dirty text."
