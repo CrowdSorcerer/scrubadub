@@ -1,3 +1,5 @@
+# FILE MODIFIED FROM ITS ORIGINAL SOURCE 
+
 import re
 import sys
 import copy
@@ -48,7 +50,6 @@ class TaggedEvaluationFilthDetector(Detector):
     ...     ]),
     ... ])
     >>> filth_list = list(scrubber.iter_filth("Hello I am Tom"))
-    >>> print(scrubadub.comparison.get_filth_classification_report(filth_list))
     filth    detector         locale      precision    recall  f1-score   support
     <BLANKLINE>
     name     name_detector    en_US            1.00      1.00      1.00         1

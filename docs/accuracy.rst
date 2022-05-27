@@ -1,3 +1,5 @@
+# FILE MODIFIED FROM ITS ORIGINAL SOURCE 
+
 .. _comparison:
 .. _accuracy:
 
@@ -127,7 +129,6 @@ If you cannot get real data, you can generate fake data, but this is never as re
         >>> scrubber = scrubadub.Scrubber()
         >>> scrubber.add_detector(scrubadub.detectors.TaggedEvaluationFilthDetector(known_filth_items=tagged_pii))
         >>> filth_list = list(scrubber.iter_filth(document))
-        >>> print(scrubadub.comparison.get_filth_classification_report(filth_list))
         filth    detector    locale      precision    recall  f1-score   support
         <BLANKLINE>
         email    email       en_US            1.00      1.00      1.00         2

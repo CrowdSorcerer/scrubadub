@@ -23,5 +23,3 @@ sklearn
 typing_extensions
 faker
 
-# For compatibility with Home Assistant
-numpy>=1.21.4
