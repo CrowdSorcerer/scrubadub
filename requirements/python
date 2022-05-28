@@ -17,8 +17,7 @@ dateparser
 # For the detector/post-processor catalogues
 catalogue
 
-# For scrubadub.comparison
-sklearn
+
 
 typing_extensions
 faker

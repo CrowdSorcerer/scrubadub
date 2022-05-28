@@ -13,7 +13,6 @@ from .detectors.tagged import KnownFilthItem
 
 from typing import List, Dict, Union, Optional, Tuple, Callable, Iterable, Type, Set
 import pandas as pd
-import sklearn.metrics
 
 # I was originally thinking of building this into the Filth system, but they serve subtlly different purposes:
 #   * Filths need to be merged by text location so that replacements can be made
